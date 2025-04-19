@@ -13,15 +13,16 @@
 		EF8184462DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184412DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift */; };
 		EF8184482DAEA12C009E238E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184472DAEA12C009E238E /* ButtonView.swift */; };
 		EF81844A2DAEA162009E238E /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184492DAEA162009E238E /* CheckBoxView.swift */; };
-		EF8184532DAEE9EC009E238E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8184522DAEE9EC009E238E /* Colors.xcassets */; };
-		EF8184562DAEECD6009E238E /* Colors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184552DAEECD6009E238E /* Colors+Extensions.swift */; };
 		EF8184582DAF0103009E238E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184572DAF0103009E238E /* OnboardingView.swift */; };
-		EF81845A2DAF0532009E238E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8184592DAF0532009E238E /* Media.xcassets */; };
 		EF81845C2DAF09CB009E238E /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF81845B2DAF09CB009E238E /* HomeScreenView.swift */; };
 		EF8184662DB098D5009E238E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184652DB098D5009E238E /* BackgroundView.swift */; };
 		EF81846A2DB1B8EF009E238E /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184692DB1B8EF009E238E /* ProgressBarView.swift */; };
 		EF8184722DB2CE9A009E238E /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184712DB2CE9A009E238E /* BackButtonView.swift */; };
 		EF8184752DB2D604009E238E /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8184742DB2D604009E238E /* AppServices.swift */; };
+		EFD09B3E2DB34D41003D011D /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B3D2DB34D3C003D011D /* Payment.swift */; };
+		EFD09B4E2DB41A9A003D011D /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B4D2DB41A9A003D011D /* PrivacyPolicyView.swift */; };
+		EFD09B522DB41E3E003D011D /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */; };
+		EFD09B562DB4231B003D011D /* MainColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B552DB4231B003D011D /* MainColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,15 +53,16 @@
 		EF8184412DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Onboarding_TemplateApp.swift; sourceTree = "<group>"; };
 		EF8184472DAEA12C009E238E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		EF8184492DAEA162009E238E /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
-		EF8184522DAEE9EC009E238E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		EF8184552DAEECD6009E238E /* Colors+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extensions.swift"; sourceTree = "<group>"; };
 		EF8184572DAF0103009E238E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		EF8184592DAF0532009E238E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		EF81845B2DAF09CB009E238E /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		EF8184652DB098D5009E238E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		EF8184692DB1B8EF009E238E /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		EF8184712DB2CE9A009E238E /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
 		EF8184742DB2D604009E238E /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		EFD09B3D2DB34D3C003D011D /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		EFD09B4D2DB41A9A003D011D /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		EFD09B552DB4231B003D011D /* MainColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -144,14 +146,12 @@
 		EF8184422DAEA106009E238E /* IOS_Onboarding_Template */ = {
 			isa = PBXGroup;
 			children = (
+				EF81843E2DAEA106009E238E /* Assets.xcassets */,
 				EF8184732DB2D5D0009E238E /* App Services */,
 				EF8184412DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift */,
 				EF81843F2DAEA106009E238E /* ContentView.swift */,
 				EF81844D2DAEA4B8009E238E /* Views */,
 				EF81843D2DAEA106009E238E /* Preview Content */,
-				EF81843E2DAEA106009E238E /* Assets.xcassets */,
-				EF8184522DAEE9EC009E238E /* Colors.xcassets */,
-				EF8184592DAF0532009E238E /* Media.xcassets */,
 				EF8184402DAEA106009E238E /* IOS_Onboarding_Template.entitlements */,
 				EF8184542DAEECC4009E238E /* Extensions */,
 			);
@@ -161,9 +161,9 @@
 		EF81844D2DAEA4B8009E238E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EFD09B502DB41AB1003D011D /* Other */,
+				EFD09B4F2DB41AA5003D011D /* Core */,
 				EF81843B2DAEA0EA009E238E /* Components */,
-				EF8184572DAF0103009E238E /* OnboardingView.swift */,
-				EF81845B2DAF09CB009E238E /* HomeScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 		EF8184542DAEECC4009E238E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EF8184552DAEECD6009E238E /* Colors+Extensions.swift */,
+				EFD09B552DB4231B003D011D /* MainColorView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -179,9 +179,28 @@
 		EF8184732DB2D5D0009E238E /* App Services */ = {
 			isa = PBXGroup;
 			children = (
+				EFD09B3D2DB34D3C003D011D /* Payment.swift */,
 				EF8184742DB2D604009E238E /* AppServices.swift */,
 			);
 			path = "App Services";
+			sourceTree = "<group>";
+		};
+		EFD09B4F2DB41AA5003D011D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF8184572DAF0103009E238E /* OnboardingView.swift */,
+				EF81845B2DAF09CB009E238E /* HomeScreenView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EFD09B502DB41AB1003D011D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EFD09B4D2DB41A9A003D011D /* PrivacyPolicyView.swift */,
+				EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,8 +322,6 @@
 			files = (
 				EF8184432DAEA106009E238E /* Preview Assets.xcassets in Resources */,
 				EF8184442DAEA106009E238E /* Assets.xcassets in Resources */,
-				EF81845A2DAF0532009E238E /* Media.xcassets in Resources */,
-				EF8184532DAEE9EC009E238E /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,13 +349,16 @@
 				EF8184452DAEA106009E238E /* ContentView.swift in Sources */,
 				EF8184722DB2CE9A009E238E /* BackButtonView.swift in Sources */,
 				EF81846A2DB1B8EF009E238E /* ProgressBarView.swift in Sources */,
+				EFD09B4E2DB41A9A003D011D /* PrivacyPolicyView.swift in Sources */,
 				EF8184582DAF0103009E238E /* OnboardingView.swift in Sources */,
 				EF8184662DB098D5009E238E /* BackgroundView.swift in Sources */,
 				EF81845C2DAF09CB009E238E /* HomeScreenView.swift in Sources */,
+				EFD09B522DB41E3E003D011D /* TermsAndConditionsView.swift in Sources */,
 				EF8184462DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift in Sources */,
-				EF8184562DAEECD6009E238E /* Colors+Extensions.swift in Sources */,
 				EF8184482DAEA12C009E238E /* ButtonView.swift in Sources */,
 				EF8184752DB2D604009E238E /* AppServices.swift in Sources */,
+				EFD09B3E2DB34D41003D011D /* Payment.swift in Sources */,
+				EFD09B562DB4231B003D011D /* MainColorView.swift in Sources */,
 				EF81844A2DAEA162009E238E /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,7 +534,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.williamliu.IOS-Onboarding-Template";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamliu.Ava-Check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -552,7 +572,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.williamliu.IOS-Onboarding-Template";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.williamliu.Ava-Check";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";

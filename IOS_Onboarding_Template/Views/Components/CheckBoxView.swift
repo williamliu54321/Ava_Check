@@ -16,7 +16,6 @@ struct CheckBoxView: View {
 
                 ZStack {
                     RoundedRectangle(cornerRadius: 5)
-                        .stroke(ticked ? Color.MossYellow : Color.SandYellow, lineWidth: 3)
                         .frame(width: 26, height: 26)
 
                     if ticked {
@@ -25,7 +24,10 @@ struct CheckBoxView: View {
                             RoundedRectangle(cornerRadius: 5)
                                 .fill(
                                     LinearGradient(
-                                        colors: [Color.MossYellow, Color.SandYellow],
+                                        gradient: Gradient(colors: [
+                                            Color(red: 0.18, green: 0.8, blue: 0.8),
+                                            Color(red: 0.4, green: 0.65, blue: 0.9)
+                                        ]),
                                         startPoint: .top,
                                         endPoint: .bottom
                                     )
@@ -45,7 +47,6 @@ struct CheckBoxView: View {
             .frame(width: 375, height: 46)
             .background(
                 RoundedRectangle(cornerRadius: 15)
-                    .stroke(ticked ? Color.MossYellow : Color.SandYellow, lineWidth: 3)
             )
         }
         .buttonStyle(PlainButtonStyle()) // Removes default button look

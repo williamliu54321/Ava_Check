@@ -23,6 +23,7 @@
 		EFD09B4E2DB41A9A003D011D /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B4D2DB41A9A003D011D /* PrivacyPolicyView.swift */; };
 		EFD09B522DB41E3E003D011D /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */; };
 		EFD09B562DB4231B003D011D /* MainColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B552DB4231B003D011D /* MainColorView.swift */; };
+		EFD09B5C2DB4344F003D011D /* CameraFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		EFD09B4D2DB41A9A003D011D /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
 		EFD09B552DB4231B003D011D /* MainColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColorView.swift; sourceTree = "<group>"; };
+		EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFlowView.swift; sourceTree = "<group>"; };
+		EFD09B712DB44073003D011D /* IOS-Onboarding-Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IOS-Onboarding-Template-Info.plist"; path = "IOS_Onboarding_Template/IOS-Onboarding-Template-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -146,6 +149,7 @@
 		EF8184422DAEA106009E238E /* IOS_Onboarding_Template */ = {
 			isa = PBXGroup;
 			children = (
+				EFD09B712DB44073003D011D /* IOS-Onboarding-Template-Info.plist */,
 				EF81843E2DAEA106009E238E /* Assets.xcassets */,
 				EF8184732DB2D5D0009E238E /* App Services */,
 				EF8184412DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift */,
@@ -190,6 +194,7 @@
 			children = (
 				EF8184572DAF0103009E238E /* OnboardingView.swift */,
 				EF81845B2DAF09CB009E238E /* HomeScreenView.swift */,
+				EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				EF8184462DAEA106009E238E /* IOS_Onboarding_TemplateApp.swift in Sources */,
 				EF8184482DAEA12C009E238E /* ButtonView.swift in Sources */,
 				EF8184752DB2D604009E238E /* AppServices.swift in Sources */,
+				EFD09B5C2DB4344F003D011D /* CameraFlowView.swift in Sources */,
 				EFD09B3E2DB34D41003D011D /* Payment.swift in Sources */,
 				EFD09B562DB4231B003D011D /* MainColorView.swift in Sources */,
 				EF81844A2DAEA162009E238E /* CheckBoxView.swift in Sources */,
@@ -519,6 +525,8 @@
 				DEVELOPMENT_TEAM = 48DNC6L6NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/williamliu/Desktop/IOS_Onboarding_Template/IOS_Onboarding_Template/IOS-Onboarding-Template-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to provide core features of the app";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -557,6 +565,8 @@
 				DEVELOPMENT_TEAM = 48DNC6L6NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/williamliu/Desktop/IOS_Onboarding_Template/IOS_Onboarding_Template/IOS-Onboarding-Template-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to provide core features of the app";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

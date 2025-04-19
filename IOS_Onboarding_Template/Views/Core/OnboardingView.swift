@@ -117,6 +117,13 @@ struct OnboardingPage2: View {
                 } label: {
                     ButtonView(title: "Scan", image: "arrow.right.circle.fill")
                 }
+            NavigationLink(destination: CameraFlow()) {
+                Text("Analyze Skin")
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
             }
             .padding(.bottom, 50)
         }
@@ -226,9 +233,13 @@ struct OnboardingPage3: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 30)
                 .padding(.bottom, 10)
-            
+             //
+
+
+
             // Subscribe button
             Button {
+
                 if selectedOption == .monthly {
                     payments.buyMonthly()
                 } else {

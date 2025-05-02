@@ -139,7 +139,6 @@ struct PrivacyPolicyExampleView: View {
                     PrivacyPolicyView(isPresented: $showPrivacyPolicy)
                         .frame(height: UIScreen.main.bounds.height * 0.9)
                         .transition(.move(edge: .bottom))
-                        .animation(.spring())
                         .cornerRadius(16, corners: [.topLeft, .topRight])
                         .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: -5)
                 }

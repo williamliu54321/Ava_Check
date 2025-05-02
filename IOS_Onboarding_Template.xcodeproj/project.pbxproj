@@ -24,6 +24,8 @@
 		EFD09B522DB41E3E003D011D /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */; };
 		EFD09B562DB4231B003D011D /* MainColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B552DB4231B003D011D /* MainColorView.swift */; };
 		EFD09B5C2DB4344F003D011D /* CameraFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */; };
+		EFD09B7D2DB492BF003D011D /* CameraFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B7C2DB492B5003D011D /* CameraFlowViewModel.swift */; };
+		EFD09B812DB494B6003D011D /* CameraFlowBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD09B802DB494AD003D011D /* CameraFlowBackend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		EFD09B552DB4231B003D011D /* MainColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainColorView.swift; sourceTree = "<group>"; };
 		EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFlowView.swift; sourceTree = "<group>"; };
 		EFD09B712DB44073003D011D /* IOS-Onboarding-Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IOS-Onboarding-Template-Info.plist"; path = "IOS_Onboarding_Template/IOS-Onboarding-Template-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EFD09B7C2DB492B5003D011D /* CameraFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFlowViewModel.swift; sourceTree = "<group>"; };
+		EFD09B802DB494AD003D011D /* CameraFlowBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFlowBackend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -194,7 +198,7 @@
 			children = (
 				EF8184572DAF0103009E238E /* OnboardingView.swift */,
 				EF81845B2DAF09CB009E238E /* HomeScreenView.swift */,
-				EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */,
+				EFD09B792DB49078003D011D /* CameraFlow */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -206,6 +210,16 @@
 				EFD09B512DB41E3E003D011D /* TermsAndConditionsView.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		EFD09B792DB49078003D011D /* CameraFlow */ = {
+			isa = PBXGroup;
+			children = (
+				EFD09B802DB494AD003D011D /* CameraFlowBackend.swift */,
+				EFD09B7C2DB492B5003D011D /* CameraFlowViewModel.swift */,
+				EFD09B5B2DB4344F003D011D /* CameraFlowView.swift */,
+			);
+			path = CameraFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +377,9 @@
 				EF8184482DAEA12C009E238E /* ButtonView.swift in Sources */,
 				EF8184752DB2D604009E238E /* AppServices.swift in Sources */,
 				EFD09B5C2DB4344F003D011D /* CameraFlowView.swift in Sources */,
+				EFD09B812DB494B6003D011D /* CameraFlowBackend.swift in Sources */,
 				EFD09B3E2DB34D41003D011D /* Payment.swift in Sources */,
+				EFD09B7D2DB492BF003D011D /* CameraFlowViewModel.swift in Sources */,
 				EFD09B562DB4231B003D011D /* MainColorView.swift in Sources */,
 				EF81844A2DAEA162009E238E /* CheckBoxView.swift in Sources */,
 			);

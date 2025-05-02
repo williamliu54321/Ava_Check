@@ -29,7 +29,7 @@ struct IOS_Onboarding_TemplateApp: App {
                             )
                             .ignoresSafeArea())
                 } else {
-                    CameraFlow()
+                    OnboardingView()
                         .background(
                             LinearGradient(
                                 gradient: Gradient(colors: [
